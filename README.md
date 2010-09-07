@@ -9,7 +9,7 @@ Once you have an authenticated user logged into your site you can start querying
 FBGrab.userInfo(callback) //get the user object<br/>
 FBGrab.userAlbums(callback) //get the user's photo albums
 
-The callback takes 1 argument, the response of the query, which you can process the data accordingly.
+The callback is a function object that takes 1 argument, the response of the query, which you can then process the data accordingly.
 
 Just have a look inside FBGrab.js to look at types of data you can grab from the Graph API.
 
