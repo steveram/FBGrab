@@ -2,8 +2,7 @@
 FBGrab is a simple JavaScript wrapper around Facebook's Graph API. Once your website has an authenticated Facebook user logged in, FBGrab can be used to query data about that user.
 
 <h3>Usage</h3>
-Follow instructions to include the Facebook JS SDK on your site here: http://developers.facebook.com/docs/reference/javascript/
-<br/>include FBGrab.js
+Follow instructions to include the Facebook JS SDK on your site here: http://developers.facebook.com/docs/reference/javascript/ <br/> include FBGrab.js
 
 Once you have an authenticated user logged into your site you can start querying user data from Facebook's Graph API.
 
