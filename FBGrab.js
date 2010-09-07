@@ -28,7 +28,8 @@ var FBGrab = (function(window, document, undefined){
 
      //When no callback is provided execute the empty function
      var doNothing = function(){};
-        
+
+     //Expose the API
      return {
             userInfo: function(callback){
                 this.execute(USER_INFO, callback);
@@ -72,7 +73,6 @@ var FBGrab = (function(window, document, undefined){
             userCheckins: function(callback){
                 this.execute(USER_CHECKINS, callback);
             },
-            
             execute: function(method, callback){
                 FB.api(method, (typeof callback == "function" ? callback : doNothing));
             }
@@ -80,5 +80,5 @@ var FBGrab = (function(window, document, undefined){
 
 }(this, window));
 
-
+//Allow API usage with FBG
 if(!window.FBG){window.FBG=FBGrab;}
