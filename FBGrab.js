@@ -24,7 +24,7 @@ var FBGrab = (function(window, document, undefined){
          USER_VIDEOS        = '/me/videos',
          USER_EVENTS        = '/me/events',
          USER_GROUPS        = '/me/groups',
-         USER_CHECKINS      = 'me/checkins';
+         USER_CHECKINS      = '/me/checkins';
 
      //When no callback is provided execute the empty function
      var doNothing = function(){};
