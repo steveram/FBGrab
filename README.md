@@ -17,5 +17,4 @@ Just have a look inside FBGrab.js to look at types of data you can grab from the
 1. Implement the ability to query connections between all types of objects.
 
 <h3>Resources</h3>
-http://developers.facebook.com/docs/reference/javascript/
-http://developers.facebook.com/docs/reference/api/
+http://developers.facebook.com/docs/reference/javascript/ <br/> http://developers.facebook.com/docs/reference/api/
