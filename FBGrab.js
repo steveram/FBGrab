@@ -3,7 +3,8 @@
  * FB Graph API JavaScript Wrapper
  *
  * Copyright 2010, Steven Ramkumar
- * Licensed under the MIT Version 2 licenses.
+ * Licensed under the MIT License
+ * http://www.opensource.org/licenses/mit-license.php
  * Date: September 7th 2010 1:27AM PST
  *
  */
